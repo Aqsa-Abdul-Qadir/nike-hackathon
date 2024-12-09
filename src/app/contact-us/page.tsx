@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 import searchIcon from "@public/images/icons/search.svg";
 import thumbsUpIcon from "@public/images/icons/thumbs-up.svg";

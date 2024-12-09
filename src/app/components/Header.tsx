@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React, { useState } from "react";
 import topLogo from "@public/images/logo/favicon.svg";
 import logo from "@public/images/logo/logo.svg";
@@ -21,7 +21,7 @@ const Header = () => {
     <div>
       <div className="hidden lg:block">
         <div className="flex justify-between items-center px-10 bg-light-gray">
-          <Image src={topLogo} alt="Top Logo" height={40} width={40} />
+          <Image src={topLogo} alt="Top Logo" height={40} width={60} />
 
           <ul className="flex space-x-6 py-3">
             <li className="flex items-center border-r border-black pr-6">

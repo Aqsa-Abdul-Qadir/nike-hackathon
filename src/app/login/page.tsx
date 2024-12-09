@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "@public/images/logo/logo.svg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import Button from "../components/Button";
 

@@ -1,6 +1,6 @@
 import Button from '@/app/components/Button';
 import { nikeProducts } from '@/app/components/Cards/data';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 const ProductPage = async ({ params }: { params: Promise<{ id: string }> }) => {
