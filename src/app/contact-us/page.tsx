@@ -16,7 +16,7 @@ const page = () => {
         <h2 className='uppercase text-xl font-bold mt-8'>Get Help</h2>
         <div className="flex px-4 py-3 rounded-md w-72 lg:w-[30%] border-2 border-text-secondary-gray mt-4 justify-between">
             <input className="focus-visible:outline-none w-full lg:w-[64%]" type="text" placeholder="What can we help you with?" name="" id="" />
-            <Image src={searchIcon} alt="wishlist"/>
+            <Image src={searchIcon} alt="wishlist" height={24} width={24}/>
         </div>
         <div className="grid grid-cols-12 md:px-16 pt-14 pb-10 bg-white text-gray-800">
             <div className='col-span-12 lg:col-span-9 border-none lg:border-r-[1.3px] pr-0 md:pr-4 border-text-secondary-gray'>
@@ -78,8 +78,8 @@ const page = () => {
                 <div className="mb-6">
                     <p className="mb-2">Was this answer helpful?</p>
                     <div className="flex space-x-2">
-                        <Image src={thumbsUpIcon} alt="Thumbs Up" className="w-6 h-6 cursor-pointer"/>
-                        <Image src={thumbsDownIcon} alt="Thumbs Down" className="w-6 h-6 cursor-pointer"/>
+                        <Image src={thumbsUpIcon} alt="Thumbs Up" className="w-6 h-6 cursor-pointer" height={24} width={24}/>
+                        <Image src={thumbsDownIcon} alt="Thumbs Down" className="w-6 h-6 cursor-pointer" height={24} width={24}/>
                     </div>
                 </div>
                 <h4 className="text-lg font-bold mt-8 mb-4 text-text-secondary-gray">RELATED</h4>
@@ -101,7 +101,7 @@ const page = () => {
                 <h2 className='uppercase font-bold text-2xl text-center'>Contact Us</h2>
                 {/* Phone Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                   <Image src={phoneIcon} alt='Phone' width={60}/>
+                   <Image src={phoneIcon} alt='Phone' width={60} height={60}/>
                     <p className="font-semibold">000 800 919 0566</p>
                     <p>Products & Orders: 24 hours a day, 7 days a week</p>
                     <p>Company Info & Enquiries: 07:30 - 16:30, Monday - Friday</p>
@@ -109,21 +109,21 @@ const page = () => {
 
                 {/* Chat Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src={messageIcon} alt='Phone' width={60}/>
+                    <Image src={messageIcon} alt='Phone' width={60} height={60}/>
                     <p>24 hours a day</p>
                     <p>7 days a week</p>
                 </div>
 
                 {/* Email Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src={emailIcon} alt='Phone' width={60}/>
+                    <Image src={emailIcon} alt='Phone' width={60} height={60}/>
                     <p>We’ll reply within</p>
                     <p>five business days</p>
                 </div>
 
                 {/* Store Locator Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src={locationIcon} alt='Phone' width={60}/>
+                    <Image src={locationIcon} alt='Phone' width={60} height={60}/>
                     <p className="font-semibold">STORE LOCATOR</p>
                     <p>Find Nike retail stores near you</p>
                 </div>

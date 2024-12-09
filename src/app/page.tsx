@@ -23,7 +23,7 @@ export default function Home() {
         </p>
       </div>
       <section className="px-10">
-        <Image src={nikeBanner} alt="" />
+        <Image src={nikeBanner} alt="nike banner" height={400} width={1200} priority/>
         <div className="flex flex-col items-center py-10">
           <h3>First Look</h3>
           <h2 className="text-5xl uppercase pt-2 text-center">Nike Air Max Pulse</h2>
@@ -58,19 +58,18 @@ export default function Home() {
         <h2 className="mb-4 font-bold">The Essentials</h2>
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-4 m-auto relative">
-            <Image src={mensThumbnail} alt="Mens Thumbnail"/>
-            <div className="absolute bottom-10 left-8">
+          <Image src={mensThumbnail} alt="Mens Thumbnail" layout="responsive" width={600} height={400} />            <div className="absolute bottom-10 left-8">
               <button className="bg-white px-6 py-2 rounded-full">Men's</button>
             </div>
           </div>
           <div className="col-span-12 md:col-span-4 m-auto relative">
-            <Image src={womensThumbnail} alt="Womens Thumbnail"/>
+            <Image src={womensThumbnail} alt="Womens Thumbnail" layout="responsive" width={600} height={400}/>
             <div className="absolute bottom-10 left-8">
               <button className="bg-white px-6 py-2 rounded-full">Women's</button>
             </div>
           </div>
           <div className="col-span-12 md:col-span-4 m-auto relative">
-            <Image src={kidsThumbnail} alt="Kids Thumbnail"/>
+            <Image src={kidsThumbnail} alt="Kids Thumbnail" layout="responsive" width={600} height={400}/>
             <div className="absolute bottom-10 left-8">
               <button className="bg-white px-6 py-2 rounded-full">Kid's</button>
             </div>

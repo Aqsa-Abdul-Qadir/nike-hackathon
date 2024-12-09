@@ -65,7 +65,7 @@ const Page = () => {
         <div className="my-10 border-t-2 pt-4">
           <div className="flex justify-between pb-4">
             <p>Gender</p>
-            <Image src={dropdownUpIcon} alt="Drop Down Up" />
+            <Image src={dropdownUpIcon} alt="Drop Down Up" height={24} width={24}/>
           </div>
           <div>
             <input type="checkbox" id="men" />
@@ -89,7 +89,7 @@ const Page = () => {
         <div className="my-10 border-t-2 pt-4">
           <div className="flex justify-between pb-4">
             <p>Shop By Price</p>
-            <Image src={dropdownUpIcon} alt="Drop Down Up" />
+            <Image src={dropdownUpIcon} alt="Drop Down Up" height={24} width={24}/>
           </div>
           <div>
             <input type="checkbox" id="under-2500" />
@@ -119,15 +119,15 @@ const Page = () => {
             className="flex items-center lg:hidden"
             onClick={() => setIsSidebarVisible(true)}
           >
-            Show Filters <Image className="ms-2" src={filterIcon} alt="Filter" />
+            Show Filters <Image className="ms-2" src={filterIcon} alt="Filter" height={24} width={24}/>
           </button>
           <button
             className="hidden lg:flex"
           >
-            Hide Filters <Image className="ms-2" src={filterIcon} alt="Filter" />
+            Hide Filters <Image className="ms-2" src={filterIcon} alt="Filter" height={24} width={24}/>
           </button>
           <div className="flex items-center">
-            Sort By <Image className="ms-2" src={dropdownIcon} alt="Dropdown" />
+            Sort By <Image className="ms-2" src={dropdownIcon} alt="Dropdown" height={24} width={24}/>
           </div>
         </div>
         <ProductList />

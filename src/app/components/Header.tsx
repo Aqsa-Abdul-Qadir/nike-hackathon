@@ -21,7 +21,7 @@ const Header = () => {
     <div>
       <div className="hidden lg:block">
         <div className="flex justify-between items-center px-10 bg-light-gray">
-          <Image src={topLogo} alt="Top Logo" />
+          <Image src={topLogo} alt="Top Logo" height={40} width={40} />
 
           <ul className="flex space-x-6 py-3">
             <li className="flex items-center border-r border-black pr-6">
@@ -48,7 +48,7 @@ const Header = () => {
         </div>
         <div className="flex px-10 justify-between items-center py-4">
           <Link href="/">
-            <Image src={logo} alt="Logo" />
+            <Image src={logo} alt="Logo" width={40} height={50}/>
           </Link>
           <ul className="flex space-x-6">
             <li>
@@ -72,26 +72,26 @@ const Header = () => {
           </ul>
           <div className="flex space-x-6">
             <div className="flex px-4 py-3 rounded-full w-[64%] bg-light-gray">
-              <Image src={searchIcon} alt="search" />
+              <Image src={searchIcon} alt="search" height={24} width={24}/>
               <input
                 className="pl-4 focus-visible:outline-none w-[64%] bg-light-gray"
                 type="text"
                 placeholder="Search"
               />
             </div>
-            <Image src={wishlistIcon} alt="wishlist" />
-            <Image src={cartIcon} alt="cart" />
+            <Image src={wishlistIcon} alt="wishlist" height={24} width={24}/>
+            <Image src={cartIcon} alt="cart" height={24} width={24}/>
           </div>
         </div>
       </div>
 
       <div className="lg:hidden px-10 py-4 flex justify-between items-center">
         <Link href="/">
-          <Image src={logo} alt="Logo" />
+          <Image src={logo} alt="Logo" height={40} width={40}/>
         </Link>
         <div className="flex gap-6">
-          <Image src={wishlistIcon} alt="wishlist" />
-          <Image src={cartIcon} alt="cart" />
+          <Image src={wishlistIcon} alt="wishlist" height={24} width={24}/>
+          <Image src={cartIcon} alt="cart" height={24} width={24}/>
           <Link href="#" onClick={toggleMenu}>
             <Image src={menuIcon} width={30} height={30} alt="Menu" />
           </Link>
@@ -109,13 +109,13 @@ const Header = () => {
           }`}
         >
           <div className="flex justify-between items-center">
-            <Image src={logo} alt="Logo" />
+            <Image src={logo} alt="Logo" height={40} width={40}/>
             <Link href="#" onClick={toggleMenu}>
               <Image src={crossIcon} width={30} height={30} alt="Close" />
             </Link>
           </div>
           <div className="flex px-4 py-3 mt-6 rounded-full w-[96%] bg-light-gray">
-            <Image src={searchIcon} alt="search" />
+            <Image src={searchIcon} alt="search" height={24} width={24}/>
             <input
               className="pl-4 focus-visible:outline-none w-[64%] bg-light-gray"
               type="text"

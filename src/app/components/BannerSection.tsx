@@ -16,7 +16,14 @@ const BannerSection: React.FC<BannerSectionProps> = ({heading, imageUrl, secondH
   return (
     <section className="px-10">
       <h2 className="mb-4 font-bold">{heading}</h2>
-      <Image src={imageUrl} alt={imageAlt}/>
+      <Image 
+  src={imageUrl} 
+  alt={imageAlt} 
+  layout="responsive" 
+  width={1200}  // The native width of your image
+  height={500}  // The native height of your image
+/>
+
       <div className="flex flex-col items-center py-10">
         <h2 className="text-5xl uppercase pt-2 text-center">{secondHeading}</h2>
         <p className="w-full md:w-1/2 text-center py-6">

@@ -53,10 +53,10 @@ const ProductSlider = () => {
           <div className="flex items-center gap-4">
             <p>Shop</p>
             <div className="bg-[#F5F5F5] px-5 py-4 rounded-full cursor-pointer" onClick={() => sliderRef.current?.slickPrev()}>
-              <Image src={arrowLeftIcon} alt="Arrow Left"/>
+              <Image src={arrowLeftIcon} alt="Arrow Left" width={24} height={24}/>
             </div>
             <div className="bg-[#E5E5E5] px-5 py-4 rounded-full cursor-pointer" onClick={() => sliderRef.current?.slickNext()}>
-              <Image src={arrowRightIcon} alt="Arrow Right"/>
+              <Image src={arrowRightIcon} alt="Arrow Right" width={24} height={24}/>
             </div>
           </div>
         </div>

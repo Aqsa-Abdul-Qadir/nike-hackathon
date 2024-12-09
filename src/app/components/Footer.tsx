@@ -41,22 +41,22 @@ const Footer = () => {
           <ul className='flex space-x-4'>
             <li>
               <Link href='#'>
-                <Image src={twitterIcon} alt='Twitter Icon'/>
+                <Image src={twitterIcon} alt='Twitter Icon' width={24} height={24}/>
               </Link>
             </li>
             <li>
               <Link href='#'>
-                <Image src={facebookIcon} alt='Facebook Icon'/>
+                <Image src={facebookIcon} alt='Facebook Icon' width={24} height={24}/>
               </Link>
             </li>
             <li>
               <Link href='#'>
-                <Image src={youtubeIcon} alt='Youtube Icon'/>
+                <Image src={youtubeIcon} alt='Youtube Icon' width={24} height={24}/>
               </Link>
             </li>
             <li>
               <Link href='#'>
-                <Image src={instagramIcon} alt='Instagram Icon'/>
+                <Image src={instagramIcon} alt='Instagram Icon' width={24} height={24}/>
               </Link>
             </li>
           </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
       <div className='grid grid-cols-12 py-6 gap-4 lg:gap-0'>
         <div className='col-span-12 lg:col-span-6 flex'>
           <div className='flex'>
-            <Image src={locationWhiteIcon} alt='Location Icon'/>
+            <Image src={locationWhiteIcon} alt='Location Icon' width={24} height={24}/>
             <p className='text-white ps-4'>India</p>
           </div>
           <p className='text-text-primary-gray ps-8'>© 2023 Nike, Inc. All Rights Reserved</p>

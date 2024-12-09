@@ -52,10 +52,10 @@ const ShopMensSlider = () => {
           <div className="flex items-center gap-4">
             <p>Shop Men's</p>
             <div className="bg-[#F5F5F5] px-5 py-4 rounded-full cursor-pointer" onClick={() => sliderRef.current?.slickPrev()}>
-              <Image src={arrowLeftIcon} alt="Arrow Left"/>
+              <Image src={arrowLeftIcon} alt="Arrow Left" height={24} width={24}/>
             </div>
             <div className="bg-[#E5E5E5] px-5 py-4 rounded-full cursor-pointer" onClick={() => sliderRef.current?.slickNext()}>
-              <Image src={arrowRightIcon} alt="Arrow Right"/>
+              <Image src={arrowRightIcon} alt="Arrow Right" height={24} width={24}/>
             </div>
           </div>
         </div>
